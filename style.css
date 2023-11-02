@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    color: whitesmoke;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    color: rgb(187, 44, 44);
+}
+
+.nav-links li {
+    margin: 0 30px;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(img/ny-bakgrund.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+    color: white;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: rgb(255, 0, 0);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.menu-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/* mobilversion*/
+@media only screen and (max-width:850px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: gray;
+        margin-top: 900px;
+    }
+.mobile menu {
+    margin-top: 0px;
+}
+    .nav-links li {
+        margin: 30px auto;
+    }
+}
