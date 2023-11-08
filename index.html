@@ -2,52 +2,110 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD8M97M5HF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VD8M97M5HF');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adare Restaurant</title>
+    <meta name="description" content="En sida om en restaurang">
+    <meta name="keywords" content="restaurang, meny, mat, bokabord, middag">
+    <meta name="author" content="Lovisa Backlund">
+    <title>Bistro Bliss</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/
+fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 
 <body>
     <nav class="navbar">
-        <h1 class="logo">ADVENTURE</h1>
+        <h1 class="logo">Bistro Bliss</h1>
         <ul class="nav-links">
-            <li class="active"><a href="#">HEM</li>
-            <li><a href="#">MENY</li>
-            <li><a href="#">RECEPT</li>
-            <li><a href="#">BOKA BORD</li>
-            <li><a href="#">OM OSS</li>
+            <li class="active"><a href="index.html">HEM</li>
+            <li><a href="meny.html">MENY</li>
+            <li><a href="recept.html">RECEPT</li>
+            <li><a href="bokabord.html">BOKA BORD</li>
+            <li><a href="omoss.html">OM OSS</li>
             <li class="ctn" href="#"></a>Contact</li>
         </ul>
-        <img src="./img/menu-button.png" alt="" class="menu-button">
     </nav>
 
     <header>
         <div class="header-content">
-            <h2> Explore the colorful world</h2>
+            <h2> Hantverkargatan 7</h2>
             <div class="line"></div>
-            <h1> A WONDERFUL GIFT</h1>
-            <a href="#" class="ctn">Learn more</a>
+            <h1> VÄLKOMMEN TILL FAMES</h1>
+            <a href="#" class="ctn">Boka bord</a>
         </div>
     </header>
 
-    <script>
-        const menubutton = document.querySelector(.menu - button)
-        const navlinks = document.querySelector(.nav - links)
-   menubutton.addEventListener('click',()=>)
-   navlinks.classList.toggle(mobile-menu)
-   
-   </script>
+    <!--- events -->
+    <section class="Events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/1.jpg" alt="">
+                <h4> Everest camp</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, a. Corrupti fugit exercitationem
+                    excepturi dolorum, nostrum libero dolor iste aliquam soluta dolores dolore amet, ratione animi.
+                    Maxime numquam quasi a.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="./img/2.jpg" alt="">
+                <h4> Walking holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, a. Corrupti fugit exercitationem
+                    excepturi dolorum, nostrum libero dolor iste aliquam soluta dolores dolore amet, ratione animi.
+                    Maxime numquam quasi a.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
 
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fuga rerum iure perspiciatis
+                corporis
+                minima! Quos ratione, quibusdam, officia quas dolore quis consectetur modi nobis saepe corrupti esse?
+                Sit,
+                asperiores?</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
 
-    <main>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rem minima quis modi assumenda earum
+                    nesciunt, cumque, labore aliquam, necessitatibus facere magni cupiditate sunt accusamus iure?
+                    Facilis dolor commodi debitis.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/drink-1.png" alt="">
+                    <img src="./img/drink-3.jpg" alt="">
+                    <img src="./img/drink-2.png" alt="">
+                    <img src="./img/drink-4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </main>
+    <section class="footer">
+        <p> Hantverkargatan 7, Stockholm </p>
+        <p>+46701960229 | fames@hotmail.com</p>
+    </section>
 
-    <footer></footer>
-
-    </div>
 
 </body>
 
