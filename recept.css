@@ -1,0 +1,183 @@
+/* Annan stil för din webbplats */
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(247, 247, 247);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    color: rgb(119, 82, 82);
+}
+
+.nav-links li {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-links a {
+    color: brown;
+    text-decoration: none;
+}
+header {
+    width: 100vw;
+    height: 5vw;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: brown;
+font-size: large;
+}
+.nav-links a:hover {
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        background: #4e0101;
+        height: 50vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 60px;
+        transition: right 0.5s ease;
+        padding-bottom: 10px;
+    }
+
+    .nav-links li {
+        margin: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    /*recept*/
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.content h2 {
+    color: brown;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-right: 30px;
+}
+.content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+    margin: 50px;
+}
+
+.text{
+    flex: 1;
+    text-align: left;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.text ul {
+    color: brown;
+}
+.content li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  max-width: 500px;
+}
+.instructions h3 {
+    color: brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.instructions p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* ny recept*/
+
+.nyimage {
+    flex: 1;
+    text-align: right;
+    margin: 50px;
+}
+.nyimage img {
+    max-width: 100%;
+  height: auto;
+  max-width: 500px;
+}
+.nytext {
+    flex: 1;
+    text-align: left;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nytext ul {
+    color: rgb(0, 0, 0);
+}
+.nytext li {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+.nytext p {
+    margin-top: 50px;
+}
+.nytext h2 {
+    color: brown;
+    font-size: small;
+}
+.nyins h3 {
+    padding-top: 80px;
+    text-align: center;
+    color: brown;
+    font-size: xx-large;
+}

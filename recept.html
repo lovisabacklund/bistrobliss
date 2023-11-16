@@ -1,33 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD8M97M5HF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD8M97M5HF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-VD8M97M5HF');
-</script>
+        gtag('config', 'G-VD8M97M5HF');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="En sida om en restaurang">
     <meta name="keywords" content="restaurang, meny, mat, bokabord, middag">
     <meta name="author" content="Lovisa Backlund">
     <title>Document</title>
+    <link rel="stylesheet" href="recept.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <h1 class="logo">Bistro Bliss</h1>
-        <ul class="nav-links">
-            <li class="active"><a href="index.html">HEM</li>
-            <li><a href="meny.html">MENY</li>
-            <li><a href="recept.html">RECEPT</li>
-            <li><a href="bokabord.html">BOKA BORD</li>
-            <li><a href="omoss.html">OM OSS</li>
-            <li class="ctn" href="#"></a>Contact</li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="navbar">
+            <h1>BISTRO BLISS</h1>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">HEM</a></li>
+                <li><a href="meny.html">MENY</a></li>
+                <li><a href="recept.html">RECEPT</a></li>
+                <li><a href="bokabord.html">BOKA BORD</a></li>
+                <li><a href="omoss.html">OM OSS</a></li>
+                <li><a href="https://bistrobliss.wordpess.com/">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="image">
+            <img src="img/burrata.webp" alt="beskrivande text">
+        </div>
+        <div class="text">
+            <h2>Toast med burrata och marinerade tomater</h2>
+            <ul>
+                <li>4 skivor surdegsbröd</li>
+                <li>olivolja</li>
+                <li>1 klyfta vitlök</li>
+                <li>250g körsbärstomater</li>
+                <li>1 mask balsamvinäger</li>
+                <li>1 kruka basilika</li>
+                <li>salt</li>
+                <li>peppar</li>
+                <li>4 miniburrata eller 2 stora</li>
+                <li>8 skivor prosciutto</li>
+            </ul>
+        </div>
+    </div>
+    <div class="instructions">
+        <h3>Gör så här:</h3>
+        <p>Steg 1: Sätt ugnen på 225 grader.</p>
+        <p>Steg 2: Skär tomaterna i klyftor. Blanda med olivolja, balsamvinäger, salt och peppar. Bryt ner
+            basilikabladen, men spara några till garnering. Låt marineras ca 20 minuter.</p>
+        <p>Steg 3: Pensla brödet med olivolja och rosta i ugnen ca 5 min eller tills det fått fin färg. Skala och
+            halvera vitlöksklyftan och gnid mot det rostade brödet så det får lite smak.</p>
+        <p>Steg 4: Lägg upp tomaterna på brödet, lägg på en burrata, prosciutto och garnera med några extra
+            basilikablad.</p>
+        <p>___________________________________________________________________________________________________________
+        </p>
+    </div>
+
+    <!-- Andra receptet (Spegelvänd version) -->
+    <div class="content">
+        <div class="nyimage">
+            <img src="img/citronstekt-lax-med-kramigt-havreris.png.webp" alt="beskrivande text för andra receptet">
+        </div>
+        <div class="recipe">
+            <div class="nytext">
+                <h2></h2>
+                <p>Havrerisotto:</p>
+                <ul>
+                    <li>2 schalottenlökar</li>
+                    <li>1 klyfta vitlök</li>
+                    <li>neutral olja, till stekning</li>
+                    <li>4 dl Frebaco Kvarn Svenskt Havreris</li>
+                    <li>2 dl vitt vin (torrt)</li>
+                    <li>1,5 msk koncentrerad grönsaksfond</li>
+                    <li>5 dl vatten</li>
+                    <li>3 dl parmesanost, finriven</li>
+                    <li>salt</li>
+                    <li>Peppar</li>
+                    <br>
+                    <p>Citronstekt lax</p>
+                    <li>4 laxfiléer</li>
+                    <li>2 msk smör</li>
+                    <li>2 citroner</li>
+            </div>
+        </div>
+        <div class="nyins">
+            <h3>Citronstekt lax med krämigt havreris</h3>
+            <p>Gör såhär:</p>
+            <p>Havrerisotto</p>
+            <p>1. Koka havreriset i vatten 4 minuter kortare än anvisningen på förpackningen. Skölj det sedan direkt i
+                kallt vatten.</p>
+            <p>2. Skala och hacka schalottenlök och vitlök. Svetta i en stor kastrull eller gryta tillsammans med lite
+                olja. Tillsätt vin och havreris. Låt vätskan koka bort.</p>
+            <p>3. Koka upp vatten och grönsaksfond i en separat kastrull. Tillsätt lite i taget i havreriset under
+                omrörning tills du fått önskad konsistens på havrerisotton.</p>
+            <p>Riv parmesanosten fint och rör ner i den varma risotton. Smaka av med salt och peppar.</p>
+            <br>
+            <p>Citronstekt lax</p>
+            <p>1. Dela citronerna på hälften och lägg i en het panna tills de börjar få färg. Klicka i smöret och stek
+                laxfiléerna på hög värme. Ös laxen med smöret tills den är lagom stekt, det tar ca 3 minuter.</p>
+            <p>2. Servera laxen på en bädd av havrerisotton. Pressa över stekt citron och toppa ruccola, dill och
+                finriven parmesan.</p>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>

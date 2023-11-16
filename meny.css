@@ -1,0 +1,41 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: brown;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    color: brown;
+}
+
+.nav-links li {
+    margin: 0 30px;
+    color:white;
+}
+.nav-links a {
+    color: brown;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    color: brown;
+}
+header {
+    width: 100vw;
+    height: 60vw;
+    background-image: url(img/meny2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar h1 {
+color: brown;
+ }

@@ -1,0 +1,40 @@
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(247, 247, 247);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    color: rgb(119, 82, 82);
+}
+
+.nav-links li {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar h1 {
+    color: brown;
+}
+
+.nav-links a {
+    color: brown;
+    text-decoration: none;
+}
+header {
+    width: 100vw;
+    height: 10vw;
+    background-color: #ffffff;
+    background-position: left;
+    display: flex;
+    align-items: left   ;
+    justify-content: left;
+}
