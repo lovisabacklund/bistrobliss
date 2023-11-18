@@ -101,7 +101,7 @@ font-size: large;
     color: black;
 }
 
-.image {
+.video {
     flex: 1;
     text-align: center;
 }
@@ -111,9 +111,4 @@ font-size: large;
     text-align: left;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  max-width: 400px;
 }
